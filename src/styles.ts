@@ -11,6 +11,7 @@ const EstiloGlobal = createGlobalStyle`
   body {
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: ${(props) => props.theme.cordeFundo};
 
     @media (max-width: 768px) {
       paddin-top: 16px;
